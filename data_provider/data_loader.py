@@ -42,6 +42,7 @@ from data_provider.dataset_loader.pearl_neuro_loader import PEARLNeuroLoader
 from data_provider.dataset_loader.srm_rs_loader import SRMRSLoader
 from data_provider.dataset_loader.tdbrain_loader import TBDRAINLoader
 from data_provider.dataset_loader.tueg_loader import TUEGLoader
+from data_provider.dataset_loader.open_neuro_loader import OpenNeuroLoader
 
 
 # Dataset folder name -> loader.
@@ -55,6 +56,7 @@ data_folder_dict = {
     "APAVA": APAVALoader,
     "ADFSU": ADFSULoader,
     "ADSZ": ADSZLoader,
+    "OpenNeuro": OpenNeuroLoader,
 
     # Pretraining datasets
     "AD-Auditory": ADAuditoryLoader,
