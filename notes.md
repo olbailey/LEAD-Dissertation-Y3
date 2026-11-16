@@ -13,7 +13,7 @@ uv pip install -r requirements.txt
 ## current cli command used
 ```bash
 python -u run.py --method LEAD --checkpoints_path ./checkpoints/LEAD/pretrain/LEAD/P-11-b1024-p50-g16-learnable-3D/nh8_el12_dm128_df256_seed41/checkpoint.pth \
---task_name finetune --is_training 1 --root_path ./dataset/ --model_id P-11-b1024-p50-g16-learnable-3D-F-ADFTD-Multi --model LEAD --data MultiDatasets \
+--task_name finetune --is_training 1 --root_path ./dataset/ --model_id ENTER_YOUR_OWN_MODEL_NAME_HERE --model LEAD --data MultiDatasets \
 --training_dataset OpenNeuro \
 --e_layers 12 --batch_size 128 --n_heads 8 --d_model 128 --d_ff 256 \
 --patch_len 50 --stride 50 \

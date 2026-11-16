@@ -56,7 +56,6 @@ data_folder_dict = {
     "APAVA": APAVALoader,
     "ADFSU": ADFSULoader,
     "ADSZ": ADSZLoader,
-    "OpenNeuro": OpenNeuroLoader,
 
     # Pretraining datasets
     "AD-Auditory": ADAuditoryLoader,
@@ -73,6 +72,12 @@ data_folder_dict = {
     "TUEP": TUEGLoader,
     "TUEG": TUEGLoader,
     "CAUEEG": CAUEEGLoader,
+
+    # Personal Datasets
+    "OpenNeuro_Provided_Preprocessed": OpenNeuroLoader,
+    "OpenNeuro_Raw_Data": OpenNeuroLoader,
+    # "OpenNeuro": OpenNeuroLoader,
+
 }
 
 
