@@ -3,6 +3,9 @@
 
 <div align="center">
 
+# Reference
+This is a mirrored repository sourced from `https://github.com/DL4mHealth/LEAD`
+
 # LEAD: An EEG Foundation Model for Alzheimer's Disease Detection (Transactions on Machine Learning Research 2026)
 
 
